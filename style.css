@@ -1,5 +1,5 @@
 :root {
-  --pink: #f14e95;
+  --pink: #aad4e5;
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
@@ -46,12 +46,12 @@ body {
   font-size: 1.4rem;
 }
 .hero a {
-  color: var(--pink);
+  color: #aad4e5;
   background-color: white;
 }
 
 .hero a:hover {
-  background-color: var(--pink);
+  background-color: #aad4e5;
   color: white;
 }
 
@@ -92,8 +92,9 @@ body {
 .story h2,
 .gallery h2,
 .rsvp h2,
-.gifts h2 {
-  color: var(--pink);
+.gifts h2,
+.rsvp h3 {
+  color: #aad4e5;
   font-family: "Sacramento";
   font-size: 5rem;
   font-weight: bold;
@@ -117,7 +118,14 @@ body {
 .home .couple h3 {
   font-family: "Sacramento";
   font-size: 2.4rem;
-  color: var(--pink);
+  color: #aad4e5;
+}
+
+.home h4 {
+  font-family: "Work Sans", sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .home .couple img {
@@ -138,7 +146,7 @@ body {
 
 .home .heart i {
   margin: auto;
-  color: var(--pink);
+  color: #aad4e5;
 }
 
 .info {
@@ -149,7 +157,7 @@ body {
 }
 
 .info h2 {
-  color: var(--pink);
+  color: #aad4e5;
   font-family: "Sacramento";
   font-size: 4rem;
   font-weight: bold;
@@ -311,7 +319,7 @@ body {
 }
 
 .gallery {
-  background-color: #ffc7f6;
+  background-color: #d1e9f3;
 }
 
 .rsvp {
@@ -331,20 +339,44 @@ body {
 }
 
 .rsvp button {
-  background-color: var(--pink);
+  background-color: #aad4e5;
   color: white;
-  border: 1px solid var(--pink);
+  border: 1px solid #aad4e5;
 }
 
 .rsvp button:hover {
   background-color: white;
-  color: var(--pink);
+  color: #aad4e5;
   border: 1px solid white;
+}
+
+.rsvp h3 {
+  font-size: 2rem;
+}
+
+.rsvp h1 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.rsvp span1,
+.rsvp p1 {
+  font-size: 0.5rem;
+  font-weight: 300;
+}
+
+.container1 {
+  background: #fff;
+  background-position: right;
+  padding: 20px; 
+  font-family: sans-serif;
+  width: 500px;
+  box-shadow: 0 0 5px #000;
 }
 
 footer {
   padding: 3rem;
-  background-color: var(--pink);
+  background-color: #aad4e5;
   color: white;
 }
 
